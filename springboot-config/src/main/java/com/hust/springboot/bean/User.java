@@ -4,10 +4,6 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
-/**
- * Created by fangzhipeng on 2017/4/18.
- */
-
 
 @Configuration
 @PropertySource(value = "classpath:test.properties")

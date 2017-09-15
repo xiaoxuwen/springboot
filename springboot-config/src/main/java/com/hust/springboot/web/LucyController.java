@@ -7,9 +7,6 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * Created by fangzhipeng on 2017/4/18.
- */
 @RestController
 @EnableConfigurationProperties({ConfigBean.class, User.class})
 public class LucyController {

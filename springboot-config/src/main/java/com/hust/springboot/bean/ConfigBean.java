@@ -3,9 +3,6 @@ package com.hust.springboot.bean;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-/**
- * Created by fangzhipeng on 2017/4/18.
- */
 @ConfigurationProperties(prefix = "my")
 @Component
 public class ConfigBean {
