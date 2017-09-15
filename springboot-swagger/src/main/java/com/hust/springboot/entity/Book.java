@@ -1,8 +1,5 @@
 package com.hust.springboot.entity;
 
-/**
- * Created by fangzhipeng on 2017/4/17.
- */
 public class Book {
     private long id;
     private String name;
