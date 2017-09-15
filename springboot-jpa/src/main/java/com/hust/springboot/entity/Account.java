@@ -5,9 +5,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-/**
- * Created by fangzhipeng on 2017/4/20.
- */
 @Entity
 @Table(name = "t_account")
 public class Account {

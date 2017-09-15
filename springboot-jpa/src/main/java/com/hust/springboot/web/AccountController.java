@@ -8,10 +8,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-/**
- * Created by fangzhipeng on 2017/4/20.
- * 这里省略了service层，实际开发加上；
- */
 @RestController
 @RequestMapping("/account")
 public class AccountController {
